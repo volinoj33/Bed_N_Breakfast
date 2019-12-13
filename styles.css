@@ -1,0 +1,89 @@
+/* Stylesheet for BootstrapBNB project
+
+	Author: James Volino
+	Date: 11/27/19
+*/
+
+.nav li {
+	display: inline;
+}
+
+.nav a {
+	font-size: 20px;
+	padding-right: 25px;
+	font-weight: bold;
+	transition: font 1s;
+	color: Black;
+}
+
+.nav a:hover {
+	text-decoration: none;
+	color: Grey;
+}
+
+.nav {
+	background-color:rgb(150, 150, 233)
+}
+
+.jumbotron {
+	height: 600px;
+	background-image:url(BNB.jpg);
+	background-repeat: round;
+	background-attachment: fixed;
+}
+
+.jumbotron p {
+	color:white;
+	font-size: 30px;
+}
+
+div.jumbotron h1, div.col-md-4 h3{
+	font-family: 'Lobster', cursive;
+	color:rgb(212, 212, 247);
+	font-size: 40px;
+}
+
+.jumbotron a {
+	background-color: white;
+	padding: 10px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+.jumbotrom a:hover {
+	background-color: green;
+}
+
+div.learn-more {
+	background-color: rgb(14, 14, 63)
+}
+
+div.col-md-4 p {
+	color:rgb(212, 212, 247);
+	font-size: 15px;
+}
+
+div.col-md-4 a {
+	text-decoration: none;
+	color:rgb(150, 150, 233);
+	background-color: rgb(234, 234, 250);
+	padding: 10px;
+	border-radius: 30px;
+}
+
+div.col-md-4 a:hover:before {
+	color: black;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-image: linear-gradient(white,blue);
+	color: Navy Blue;
+}
+	
+	
+	
+	
+	
+	
